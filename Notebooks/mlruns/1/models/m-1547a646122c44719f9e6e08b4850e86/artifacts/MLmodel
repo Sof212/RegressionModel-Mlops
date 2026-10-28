@@ -1,0 +1,27 @@
+artifact_path: /Users/sofianeagounikaci/RegressionModel-Mlops/Notebooks/mlruns/1/models/m-1547a646122c44719f9e6e08b4850e86/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.7.0
+    model_class: lightgbm.sklearn.LGBMRegressor
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.sklearn.LGBMRegressor
+    - collections.OrderedDict
+    - lightgbm.basic.Booster
+    - lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.11.8
+mlflow_version: 3.17.2
+model_id: m-1547a646122c44719f9e6e08b4850e86
+model_size_bytes: 4536532
+model_uuid: m-1547a646122c44719f9e6e08b4850e86
+prompts: null
+run_id: 62d46af9c3844419bea1c19bd3a15910
+utc_time_created: '2026-10-28 21:25:39.506092'

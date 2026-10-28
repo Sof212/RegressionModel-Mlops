@@ -1,0 +1,22 @@
+artifact_path: /Users/sofianeagounikaci/RegressionModel-Mlops/Notebooks/mlruns/1/models/m-c2687a1ec91f4130b343cc1466f5f300/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.8
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.17.2
+model_id: m-c2687a1ec91f4130b343cc1466f5f300
+model_size_bytes: 775354
+model_uuid: m-c2687a1ec91f4130b343cc1466f5f300
+prompts: null
+run_id: 5a9090896f3242e7be95d9f7ca64df8b
+utc_time_created: '2026-10-28 21:34:49.636203'
