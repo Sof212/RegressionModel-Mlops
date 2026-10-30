@@ -5,3 +5,14 @@ psutil==7.2.2
 scikit-learn==1.9.1
 scipy==1.17.1
 xgboost==3.2.0
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+joblib
+
+# Tests
+pytest
+httpx
+httpx2
